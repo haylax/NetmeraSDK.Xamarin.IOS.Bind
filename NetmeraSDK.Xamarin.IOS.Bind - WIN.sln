@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetmeraSDK.Xamarin.IOS.Bind", "NetmeraSDK.Xamarin.IOS.Bind\NetmeraSDK.Xamarin.IOS.Bind.csproj", "{B4E97C06-0941-4E3C-B6F6-15E9B35A19C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4E97C06-0941-4E3C-B6F6-15E9B35A19C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E97C06-0941-4E3C-B6F6-15E9B35A19C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4E97C06-0941-4E3C-B6F6-15E9B35A19C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4E97C06-0941-4E3C-B6F6-15E9B35A19C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4E97C06-0941-4E3C-B6F6-15E9B35A19C6}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{B4E97C06-0941-4E3C-B6F6-15E9B35A19C6}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{B4E97C06-0941-4E3C-B6F6-15E9B35A19C6}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{B4E97C06-0941-4E3C-B6F6-15E9B35A19C6}.Release|iPhone.Build.0 = Release|Any CPU
+		{B4E97C06-0941-4E3C-B6F6-15E9B35A19C6}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{B4E97C06-0941-4E3C-B6F6-15E9B35A19C6}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{B4E97C06-0941-4E3C-B6F6-15E9B35A19C6}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{B4E97C06-0941-4E3C-B6F6-15E9B35A19C6}.Debug|iPhone.Build.0 = Debug|Any CPU
+	EndGlobalSection
+EndGlobal
