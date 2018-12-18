@@ -18,6 +18,7 @@
 #import <Foundation/Foundation.h>
 #import <Netmera/NetmeraBaseModel.h>
 
+
 @interface NetmeraEvent : NetmeraBaseModel
 
 @property (nonatomic, copy, readonly) NSString *eventKey;

@@ -819,6 +819,11 @@ namespace NetmeraSDK.Xamarin.IOS.Bind
         [Export("requestPushNotificationAuthorizationForTypes:")]
         void RequestPushNotificationAuthorizationForTypes(UIUserNotificationType types);
 
+        // +(void)setAppGroupName:(NSString * _Nonnull)appGroupName;
+        [Static]
+        [Export("setAppGroupName:")]
+        void SetAppGroupName(string appGroupName);
+
         // +(void)setEnabledReceivingPushNotifications:(BOOL)enabled;
         [Static]
         [Export("setEnabledReceivingPushNotifications:")]
@@ -853,6 +858,11 @@ namespace NetmeraSDK.Xamarin.IOS.Bind
         [Static]
         [Export("requestLocationAuthorization")]
         void RequestLocationAuthorization();
+
+        // +(void)setNetmeraMaxActiveRegions:(NSInteger)maxActiveRegions;
+        [Static]
+        [Export("setNetmeraMaxActiveRegions:")]
+        void SetNetmeraMaxActiveRegions(nint maxActiveRegions);
 
         // +(void)fetchInboxUsingFilter:(NetmeraInboxFilter * _Nonnull)filter completion:(void (^ _Nonnull)(NetmeraInbox * _Nonnull, NSError * _Nonnull))completionBlock;
         [Static]

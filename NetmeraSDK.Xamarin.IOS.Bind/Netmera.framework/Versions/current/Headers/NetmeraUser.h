@@ -18,6 +18,8 @@
 #import <Foundation/Foundation.h>
 #import <Netmera/NetmeraBaseModel.h>
 
+extern NSDate *NetmeraNullDate;
+
 typedef NS_ENUM(NSUInteger, NetmeraProfileAttributeGender) {
   NetmeraProfileAttributeGenderFemale = 1,
   NetmeraProfileAttributeGenderMale = 0,
